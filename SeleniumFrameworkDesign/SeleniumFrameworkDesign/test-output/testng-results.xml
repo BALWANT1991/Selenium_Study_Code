@@ -1,97 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="57628" started-at="2022-08-11T20:02:33Z" finished-at="2022-08-11T20:03:30Z">
+  <suite started-at="2024-04-20T12:16:11Z" name="Default suite" finished-at="2024-04-20T12:16:18Z" duration-ms="6275">
     <groups>
-      <group name="Purchase">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="submitOrder" class="rahulshettyacademy.tests.SubmitOrderTest"/>
-      </group> <!-- Purchase -->
-      <group name="ErrorHandling">
-        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationsTest@25fb8912]" name="LoginErrorValidation" class="rahulshettyacademy.tests.ErrorValidationsTest"/>
-      </group> <!-- ErrorHandling -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@76f4b65]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Error Validations Test" duration-ms="32321" started-at="2022-08-11T20:02:33Z" finished-at="2022-08-11T20:03:05Z">
-      <class name="rahulshettyacademy.tests.ErrorValidationsTest">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationsTest@25fb8912]" name="launchApplication" is-config="true" duration-ms="12638" started-at="2022-08-11T20:02:33Z" finished-at="2022-08-11T20:02:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="LoginErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationsTest@25fb8912]" name="LoginErrorValidation" duration-ms="2380" started-at="2022-08-11T20:02:45Z" finished-at="2022-08-11T20:02:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginErrorValidation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationsTest@25fb8912]" name="tearDown" is-config="true" duration-ms="135" started-at="2022-08-11T20:02:48Z" finished-at="2022-08-11T20:02:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationsTest@25fb8912]" name="launchApplication" is-config="true" duration-ms="6901" started-at="2022-08-11T20:02:48Z" finished-at="2022-08-11T20:02:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="ProductErrorValidation()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationsTest@25fb8912]" name="ProductErrorValidation" duration-ms="10041" started-at="2022-08-11T20:02:55Z" finished-at="2022-08-11T20:03:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductErrorValidation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationsTest@25fb8912]" name="tearDown" is-config="true" duration-ms="157" started-at="2022-08-11T20:03:05Z" finished-at="2022-08-11T20:03:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- rahulshettyacademy.tests.ErrorValidationsTest -->
-    </test> <!-- Error Validations Test -->
-    <test name="Submit Order Test" duration-ms="57628" started-at="2022-08-11T20:02:33Z" finished-at="2022-08-11T20:03:30Z">
-      <class name="rahulshettyacademy.tests.SubmitOrderTest">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="launchApplication" is-config="true" duration-ms="12278" started-at="2022-08-11T20:02:33Z" finished-at="2022-08-11T20:02:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="submitOrder" duration-ms="12837" started-at="2022-08-11T20:02:45Z" data-provider="getData" finished-at="2022-08-11T20:02:58Z">
+    <test started-at="2024-04-20T12:16:11Z" name="Default test" finished-at="2024-04-20T12:16:18Z" duration-ms="6275">
+      <class name="cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@76f4b65]" started-at="2024-04-20T12:16:11Z" name="setUpClass" finished-at="2024-04-20T12:16:12Z" duration-ms="871" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
+                <![CDATA[org.testng.TestRunner@62765aec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="tearDown" is-config="true" duration-ms="100" started-at="2022-08-11T20:02:58Z" finished-at="2022-08-11T20:02:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="launchApplication" is-config="true" duration-ms="7210" started-at="2022-08-11T20:02:58Z" finished-at="2022-08-11T20:03:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="submitOrder" duration-ms="11143" started-at="2022-08-11T20:03:05Z" data-provider="getData" finished-at="2022-08-11T20:03:17Z">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@76f4b65]" started-at="2024-04-20T12:16:12Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-20T12:16:18Z" duration-ms="5316" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+                <![CDATA["Positive Test of Submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce Website"]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 124.0.6367.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-3J7H24P', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 124.0.6367.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-3J7H24P', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:264)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:179)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+at rahulshettyacademy.TestComponents.BaseTest.initializeDriver(BaseTest.java:57)
+at rahulshettyacademy.TestComponents.BaseTest.launchApplication(BaseTest.java:109)
+at rahulshettyacademy.stepDefinitions.StepDefinitionImpl.I_landed_on_Ecommerce_Page(StepDefinitionImpl.java:27)
+at ✽.I landed on Ecommerce Page(file:///D:/Balwantsingh/SeleniumFrameworkDesign/SeleniumFrameworkDesign/src/test/java/cucumber/SubmitOrder.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="tearDown" is-config="true" duration-ms="1720" started-at="2022-08-11T20:03:17Z" finished-at="2022-08-11T20:03:18Z">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@76f4b65]" started-at="2024-04-20T12:16:18Z" name="tearDownClass" finished-at="2024-04-20T12:16:18Z" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="launchApplication" is-config="true" duration-ms="6655" started-at="2022-08-11T20:03:18Z" finished-at="2022-08-11T20:03:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="OrderHistoryTest()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="OrderHistoryTest" duration-ms="5163" started-at="2022-08-11T20:03:25Z" depends-on-methods="rahulshettyacademy.tests.SubmitOrderTest.submitOrder" finished-at="2022-08-11T20:03:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrderHistoryTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@53fdffa1]" name="tearDown" is-config="true" duration-ms="109" started-at="2022-08-11T20:03:30Z" finished-at="2022-08-11T20:03:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- rahulshettyacademy.tests.SubmitOrderTest -->
-    </test> <!-- Submit Order Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
