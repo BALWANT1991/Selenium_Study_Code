@@ -1,0 +1,80 @@
+[33mcommit 9f3ae38cb68693260dead61b0292e7c4ff5dabb4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Sun Apr 19 12:37:32 2026 +0530
+
+    Added new document in Main Branch
+
+[33mcommit 343238f3c3ed69604eb42e3dd84887afe7f98593[m
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Wed Jul 3 19:30:11 2024 +0530
+
+    Add Jenkins folder
+
+[33mcommit 71a74a8c320675b2b2125882312e5c8cac3bead1[m
+Merge: 79f27ff 6acb744
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Wed May 29 19:37:19 2024 +0530
+
+    Merge branch 'main' of https://github.com/BALWANT1991/Selenium_Study_Code
+
+[33mcommit 79f27ffc1ad1e62b5634d311b6248c211848737b[m
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Wed May 29 19:35:38 2024 +0530
+
+    Python Program
+
+[33mcommit 6acb744452e3c5d0205588b8f8a29cd10fe31b9e[m
+Author: Balwantsingh Chauhan <109889166+BALWANT1991@users.noreply.github.com>
+Date:   Mon May 27 19:28:12 2024 +0530
+
+    Created using Colab
+
+[33mcommit feeff7d96a65e2f8e99ec8b25e738d1ce3f14150[m
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Wed Sep 6 19:34:19 2023 +0530
+
+    Add new Data
+
+[33mcommit ab1c23b1d959b7230b9c1b5d33ab5b81bfbffda0[m
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Mon Aug 28 17:49:10 2023 +0530
+
+    added new project
+
+[33mcommit 83f86827e8968c7395ea5c54873b7c39cec66720[m
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Fri Aug 25 19:41:10 2023 +0530
+
+    TestNG
+
+[33mcommit 64429d3188f2799b15d310556f517caa0120c4a9[m
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Thu Aug 24 15:56:25 2023 +0530
+
+    My Eclipse
+
+[33mcommit 90017032b2c69d6a59c5f4b4615860af43391a2e[m
+Merge: 57e78f5 1b42cf5
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Thu Aug 24 14:32:02 2023 +0530
+
+    Merge branch 'main' of
+    https://github.com/BALWANT1991/Selenium_Study_Code
+
+[33mcommit 57e78f51db0df3ae7de402db8a6be42e80292b42[m
+Author: unknown <balwantsinghc07@gmail.com>
+Date:   Thu Aug 24 14:28:01 2023 +0530
+
+    Selenium Data
+
+[33mcommit 1b42cf5e0862fe12bf30116d36cbfa27a8f797fc[m
+Author: BALWANT1991 <109889166+BALWANT1991@users.noreply.github.com>
+Date:   Tue Aug 22 15:52:36 2023 +0530
+
+    Add files via upload
+
+[33mcommit 543f0673e2979ae013cea0e522ba2ffbf2bc9213[m
+Author: BALWANT1991 <109889166+BALWANT1991@users.noreply.github.com>
+Date:   Tue Aug 22 15:49:30 2023 +0530
+
+    Initial commit
